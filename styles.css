@@ -1,1 +1,18 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
 
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#demoButton {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
